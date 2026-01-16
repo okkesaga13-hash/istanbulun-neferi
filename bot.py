@@ -25,7 +25,7 @@ async def mute(update: Update, context: ContextTypes.DEFAULT_TYPE):
     except:
         await update.message.reply_text("❌ Yetkim yok veya hata oluştu.")
 
-app = ApplicationBuilder().token(TOKEN).build()
+app = ApplicationBuilder().token(8280413003:AAF5O0RkCB5MXGBAdOJvc8Xbl5PvX8_Lh3g).build()
 app.add_handler(CommandHandler("mute", mute))
 
 print("🤖 İstanbul'un Neferi aktif...")
